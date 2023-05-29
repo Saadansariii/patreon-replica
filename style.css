@@ -16,15 +16,16 @@ p{
 }
 
 h2 ,h3 , h4 , h5 ,h6 {
-  font-family: 'Phoppins';
+  font-family: 'Rubik';
 }
+
 h2{
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 700;
   }
   
 h3{
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 h6{
@@ -50,6 +51,7 @@ img{
 }
 
 button{
+  font-family: 1em;
   background: #ff424d;
   padding: 1em;
   font-family: "Poppins";
@@ -60,13 +62,6 @@ button{
   transition: color 0.2s ease;
 }
 
-button:hover{
-  background: #ffffff;
-  color: #ff424d;
-  transition: 0.2s color ease;
-  border: 2px solid #ff424d;
-}
-
 
 #footer{
   background: #000;
@@ -74,9 +69,6 @@ button:hover{
 }
 #footer a {
   color: #ffffff;
-}
-.swiper-flex-1 , .swiper-flex-2 , .swiper-flex-3 , .swiper-flex-4{
-  display: flex;
 }
 
 /* navbar */
@@ -140,6 +132,12 @@ button:hover{
 .signandlog a {
   margin-left: 1em;
 }
+.signandlog a button:hover{
+  background: #ffffff;
+  color: #ff424d;
+  transition: 0.2s color ease;
+  border: 2px solid #ff424d;
+}
 .second-input{
   background: rgb(249, 247, 247);
   align-self: center;
@@ -155,7 +153,82 @@ button:hover{
   padding-block: .3em;
 }
 
+/* heading */
+
+/* #heading{
+  max-width: 1200px;
+  margin: auto;
+} */
+
+.creativity{
+  text-align: center;
+  margin-block: 1em;
+  margin-inline: 1em;
+}
+.creativity button{
+  margin-top: 1em;
+  padding-inline: 1.5em;
+  /* font-size: 1em; */
+}
+
+.moving-corosale .slides-flex-1 , .slides-flex-2 , .slides-flex-3 , .slides-flex-4{
+  overflow: overlay;
+  display: flex;
+  animation: inslide 3s linear;
+}
+
+.moving-corosale .slides img{
+  width: 150px;
+  height: 100px;
+  margin-inline: .5em;
+  margin-block: .5em;
+  border-radius: .5em;
+}
+
+@keyframes inslide {
+  from {
+    margin-left: -100px;
+  }
+  to {
+    margin-left: -0px;
+  }
+}
+
+/* connect */
+
+#connect{
+  max-width: 1200px ;
+  margin-inline: 1em;
+}
+
+.search-heading{
+  text-align: center;
+  margin-block-start:2em ;
+  margin-block-end: 1em;
+}
+
+.search-button form{
+  padding-block: 1em;
+  background: rgb(249, 247, 247);
+  border-radius: 2em;
+}
+.search-button form i{
+  margin-inline-start: 1em;
+  margin-inline-end: .5em;
+  color: grey;
+}
+.search-button input{
+  font-size: .9em;
+  background: rgb(249, 247, 247);
+  border: none;
+}
+.search-button button{
+  margin-block: 1em;
+  padding-inline: 45%;
+  
+}
 @media(min-width:1000px){
+
   /* navbar */
   .selling{
     display: block;
