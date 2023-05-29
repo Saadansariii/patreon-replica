@@ -25,7 +25,7 @@ h2{
   }
   
 h3{
-  font-size: 1em;
+  font-size: 1.4em;
 }
 
 h6{
@@ -198,16 +198,20 @@ button{
 
 #connect{
   max-width: 1200px ;
-  margin-inline: 1em;
+  margin-inline: auto;
 }
 
 .search-heading{
   text-align: center;
   margin-block-start:2em ;
   margin-block-end: 1em;
+  margin-inline: 1em;
 }
-
+.search-button{
+  margin-inline: 1em;
+}
 .search-button form{
+  /* margin-inline: 1em; */
   padding-block: 1em;
   background: rgb(249, 247, 247);
   border-radius: 2em;
@@ -219,13 +223,184 @@ button{
 }
 .search-button input{
   font-size: .9em;
-  background: rgb(249, 247, 247);
+  background: rgb(249, 247, 250);
   border: none;
+  /* margin-inline: 1em; */
+  font-size: 1em;
 }
 .search-button button{
   margin-block: 1em;
-  padding-inline: 45%;
-  
+  width: 100%;
+}
+
+/* showcase */
+
+#showcase{
+  max-width: 1200px;
+  margin-inline: auto;
+  margin-block: 1em;
+}
+
+.who-patreon{
+  margin-inline: 1em;
+  text-align: center;
+  margin-block: 1em;
+}
+.who-patreon h2{
+  margin-block-end: .5em;
+}
+.who-patreon p{
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+.flex-items{
+  margin-inline: 2em;
+}
+
+.create img{
+  min-width: 100px;
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid ; */
+}
+.create h3{
+  margin-block:1em;
+  text-align: center;
+}
+.create p{
+  margin-inline: -1em;
+  text-align: center;
+  margin-block: .5em;
+  line-height: 1.5em;
+}
+
+.membership img{
+  min-width: 100px;
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  margin-block: 1em;
+}
+.membership h3{
+  margin-block:1em;
+  text-align: center;
+}
+.membership p{
+  margin-inline: -1em;
+  text-align: center;
+  margin-block: .5em;
+  line-height: 1.5em;
+}
+
+.trolls img{
+  min-width: 100px;
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  margin-block: 1em;
+}
+.trolls h3{
+  margin-block:1em;
+  text-align: center;
+}
+.trolls p{
+  margin-inline: -1em;
+  text-align: center;
+  margin-block: .5em;
+  line-height: 1.5em;
+}
+
+.algorithm img{
+  min-width: 100px;
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  margin-block: 1em;
+}
+.algorithm h3{
+  margin-block:1em;
+  text-align: center;
+}
+.algorithm p{
+  margin-inline: -1em;
+  text-align: center;
+  margin-block: .5em;
+  line-height: 1.5em;
+}
+
+/* uses patreon */
+
+#uses-patreon{
+  max-width: 1200px;
+  margin-inline:auto ;
+}
+.who-uses h2 , p{
+  text-align: center;
+}
+
+.who-uses p{
+  line-height: 1.5em;
+  margin-top: 1em;
+}
+.options{
+  text-align: center;
+  margin-block: 1em;
+}
+.options ul{
+  margin-inline: 1em;
+
+}
+.options ul li{
+  display: inline-block;
+  margin-inline: .2em;
+  margin-block: .5em;
+  background:rgb(249, 247, 250);
+  padding-block: .7em;
+  padding-inline: 1em;
+  border-radius: 2em;
+  font-size: 14px;
+  font-weight: 400;
+}
+.options ul li:hover{
+  background-color: #ff424d;
+  color: #fff;
+}
+
+.action{
+  text-align: center;
+}
+.action h2{
+  margin-block: 1em;
+}
+.action p{
+  line-height: 1.5em;
+  margin-block: 1em;
+}
+.news{
+  margin-inline: 1em;
+  margin-block: 1em;
+}
+.news h4{
+  margin-block: 1em;
+}
+
+.ready{
+  background-color:rgb(249, 247, 250) ;
+  text-align: center;
+  padding-block: 2em;
+}
+.ready h2{
+  margin-block-start: 1em;
+}
+.ready button{
+  margin-block: 1em;
+  padding-inline: 2em;
 }
 @media(min-width:1000px){
 
