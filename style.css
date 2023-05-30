@@ -402,6 +402,32 @@ button{
   margin-block: 1em;
   padding-inline: 2em;
 }
+
+/* footer */
+
+#footer{
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-block: 1em;
+}
+
+.f-flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+.f-flex .c-logo{
+  width: 40px;
+}
+
+.f-flex .i-logo ul li{
+  padding: .9em;
+  border-radius: 2em;
+  background-color:rgb(37, 34, 38) ;
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin-left: .5em;
+}
 @media(min-width:1000px){
 
   /* navbar */
