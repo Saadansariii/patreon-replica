@@ -406,15 +406,15 @@ button{
 /* footer */
 
 #footer{
-  max-width: 1200px;
-  margin-inline: auto;
   padding-block: 1em;
 }
 
 .f-flex{
+  max-width: 1200px;
+  margin-inline: auto;
   display: flex;
   justify-content: space-between;
-  margin: 1em;
+  margin-block: 1em;
 }
 .f-flex .c-logo{
   width: 40px;
@@ -427,6 +427,37 @@ button{
   /* border: 1px solid red; */
   display: inline-block;
   margin-left: .5em;
+}
+
+.f-selector{
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.f-selector form{
+  border: 2px solid white;
+  padding: 1em;
+  margin-block: .5em;
+  font-weight: 700;
+  /* width: fit-content; */
+}
+.f-wrap{
+  margin-block: 1em;
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.f-wrap h5{
+  font-size: .9em;
+  font-weight: 500;
+  margin-block: 1em;
+
+}
+.f-wrap ul li{
+  font-size: .9em;
+  line-height: 1.5em;
+  font-weight: 400;
 }
 @media(min-width:1000px){
 
