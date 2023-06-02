@@ -406,12 +406,14 @@ button{
 /* footer */
 
 #footer{
-  padding-block: 1em;
+  background: #000;
 }
-
-.f-flex{
+.margin-max{
   max-width: 1200px;
   margin-inline: auto;
+}
+.f-flex{
+  margin-inline: 1em;
   display: flex;
   justify-content: space-between;
   margin-block: 1em;
@@ -430,8 +432,7 @@ button{
 }
 
 .f-selector{
-  max-width: 1200px;
-  margin-inline: auto;
+  margin-inline: 1em;
 }
 .f-selector form{
   border: 2px solid white;
@@ -441,9 +442,7 @@ button{
   /* width: fit-content; */
 }
 .f-wrap{
-  margin-block: 1em;
-  max-width: 1200px;
-  margin-inline: auto;
+  margin-inline: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -459,6 +458,7 @@ button{
   line-height: 1.5em;
   font-weight: 400;
 }
+
 @media(min-width:1000px){
 
   /* navbar */
