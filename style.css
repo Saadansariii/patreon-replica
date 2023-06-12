@@ -73,6 +73,57 @@ button{
 
 /* navbar */
 
+
+
+
+
+
+
+
+
+
+
+
+
+#btn button{
+  border: 2px solid;
+  background: none;
+  color: #000;
+  padding: none;
+  border-radius: 1px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 1rem;
+  padding: 1em;
+  transition: transform 0.3s ease-in-out;
+}
+nav.active{
+  transform: translateX(-100px);
+}
+.selling{
+  background:#fff;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+  height: 100vh;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+.sellings.active{
+  transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
 #navbar{
   background: #ffffff;
   padding-block: .5em;
@@ -98,15 +149,12 @@ button{
   width: 30px;
   background: #ffffff;
 }
-.selling{
-  display: none;
-  align-self: center;
-}
 
 .selling ul li{
   margin-inline: 1em;
   gap: 1em;
-  display: inline-block;
+  padding: 1em 0em;
+  /* display: inline-block; */
   font-weight: 400;
 }
 
